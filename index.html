@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="top-navbar">
+    <nav class="navbar navbar-expand-lg top">
+      <div class="container-fluid">
+          <span><img src="./assets/pngwing.com.png" alt="" height="80px"></span>
+        <a class="navbar-brand logo " href="#">Peace</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Content
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Contacnt Us</a></li>
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Log Out</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">more...</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 searchBox" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+    <div class="middle">
+      <div class="songContainer">
+        <h1>Best of 2023 - No COpyright Sounds</h1>
+        
+        <div class="musicList">
+          <img src="./covers/1.jpg" alt="" width="60px">  
+          <span class="songName" id="1">Cheques-Shubh</span>
+          <span class="timeStamp">3:04</span>
+        </div>
+        <div class="musicList">
+          <img src="./covers/1.jpg" alt="" width="60px">  
+          <span class="songName" id="2" >Cheques-Shubh</span>
+          <span class="timeStamp">3:04</span>
+        </div>
+        <div class="musicList">
+          <img src="./covers/1.jpg" alt="" width="60px">  
+          <span class="songName" id="3">Cheques-Shubh</span>
+          <span class="timeStamp">3:04</span>
+        </div>
+        <div class="musicList">
+          <img src="./covers/1.jpg" alt="" width="60px">  
+          <span class="songName" id="4">Cheques-Shubh</span>
+          <span class="timeStamp">3:04</span>
+        </div>
+        <div class="musicList">
+          <img src="./covers/1.jpg" alt="" width="60px">  
+          <span class="songName" id="5">Cheques-Shubh</span>
+          <span class="timeStamp">3:04</span>
+        </div>
+        <div class="musicList">
+          <img src="./covers/1.jpg" alt="" width="60px">  
+          <span class="songName" id="6">Cheques-Shubh</span>
+          <span class="timeStamp">3:04</span>
+        </div>
+        <div class="musicList">
+          <img src="./covers/1.jpg" alt="" width="60px">  
+          <span class="songName" id="7">Cheques-Shubh</span>
+          <span class="timeStamp">3:04</span>
+        </div>
+        <div class="musicList">
+          <img src="./covers/1.jpg" alt="" width="60px">  
+          <span class="songName" id="8">Cheques-Shubh</span>
+          <span class="timeStamp">3:04</span>
+        </div>
+        <div class="musicList">
+          <img src="./covers/1.jpg" alt="" width="60px">  
+          <span class="songName" id="9">Cheques-Shubh</span>
+          <span class="timeStamp">3:04</span>
+        </div>
+        <div class="musicList">
+          <img src="./covers/1.jpg" alt="" width="60px">  
+          <span class="songName" id="10">Cheques-Shubh</span>
+          <span class="timeStamp">3:04</span>
+        </div>
+
+      </div>
+    </div>
+    
+    
+      <div class="music-player" >
+      <!-- <label for="customRange1" class="form-label">Example range</label> -->
+        <input type="range" class=" myProgressBar" id="customRange1" value="0" min="0" max="100">
+        <div class="controlIcons">
+          <button type="button" class="btn btn-warning" id="previous">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+              <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"></path>
+            </svg>
+          </button>
+          <button type="button" class="btn btn-warning" id="play">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+              <path id="playPause" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"></path>
+            </svg>
+          </button>
+          <!-- <button type="button" class="btn btn-warning" id="pause">
+             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-pause-circle-fill" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.25 5C5.56 5 5 5.56 5 6.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C7.5 5.56 6.94 5 6.25 5zm3.5 0c-.69 0-1.25.56-1.25 1.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C11 5.56 10.44 5 9.75 5z"></path>
+          </svg>
+          </button> -->
+          <button type="button" class="btn btn-warning" id="next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+              <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="songInfo">
+          <img src="./assets/58kL.gif" width="100px" height="100px" alt="" id="gif"><span id="masterSongName">Cheques-Shubh</span>
+        </div>
+      </div>
+    
+
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
+<!-- <button type="button" class="btn btn-warning playButton" id="previous">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-caret-left-square-fill" viewBox="0 0 16 16">
+            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm10.5 10V4a.5.5 0 0 0-.832-.374l-4.5 4a.5.5 0 0 0 0 .748l4.5 4A.5.5 0 0 0 10.5 12z"></path>
+          </svg>
+        </button> -->
